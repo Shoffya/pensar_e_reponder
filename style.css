@@ -1,24 +1,32 @@
-body{
+body {
     text-align: center;
-    padding: 200px;
+    padding: 80px;
     animation: colors 10s infinite;
 }
 
 @keyframes colors {
-    0%{
+    0% {
         background: rgb(150, 21, 143);
     }
-    25%{
+
+    25% {
         background: rgb(23, 21, 150);
     }
-    75%{
+
+    75% {
         background: rgb(21, 150, 42);
     }
-    100%{
+
+    100% {
         background: rgb(150, 21, 143);
     }
 }
 
-h1, h2{
+h1,
+h2 {
     color: white;
+}
+
+img{
+    border-radius: 10px;
 }
